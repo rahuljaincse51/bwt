@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Media Query</title>
+	<style>
+	body {
+		text-align: center;
+	}
+	
+	.rdj {
+		font-size: 40px;
+		font-weight: bold;
+		color: green;
+	}
+    @media screen and (max-width:800px) {
+		body {
+			text-align: center;
+			background-color: green;
+		}
+		.rdj {
+			font-size: 30px;
+			font-weight: bold;
+			color: white;
+		}
+		.GUNI {
+			color:blue;
+		}
+       
+	}
+	@media screen and (max-width:650px) {
+		body {
+			text-align: center;
+			background-color:hotpink;
+		}
+		.rdj {
+			font-size: 30px;
+			font-weight: bold;
+			color: white;
+		}
+		.GUNI { 
+			color: white;
+		}
+       
+	}
+	
+	@media screen and (max-width:550px) {
+		body {
+			text-align: center;
+			background-color: blue;
+		}
+        .rj{
+            color: blanchedalmond;
+            background-color:crimson;
+        }
+        
+	}
+    @media screen and (max-width:500px) {
+		body {
+			text-align: center;
+			background-color:aquamarine;
+		}
+        .rj{
+            color: bisque;
+            background-color:blueviolet;
+        }
+        
+	}
+	</style>
+</head>
+
+<body>
+	<div class="rdj">Professor Rahul Jain</div>
+	
+    <div class="GUNI">A computer science professor for Engineering Students</div>
+
+    <div class = "rj"> Hello, Rahul Jain and I Mentor Engineering Students for their Academics
+        My Specialization is in Machine Learning Algorithms and Artificial Intelligence. 
+    </div>
+</body>
+
+</html>

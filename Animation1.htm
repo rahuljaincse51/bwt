@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animation</title>
+	<style>
+	#rdj1 {
+		animation-name: color;
+		animation-duration: 20s;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-family: Times New Roman;
+	}
+	
+	#rdj2 {
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold;
+		color:white;
+		padding-bottom: 5px;
+	}
+	
+	#rdj3 {
+		font-size: 17px;
+		font-weight: bold;
+		text-align: center;
+        color: gold;
+	}
+
+	@keyframes color {
+		0% {
+			background-color: red;
+		}
+		50% {
+			background-color:lightseagreen;
+		}
+		100% {
+			background-color:blue;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<div id="rdj1">
+		<div id="rdj2"> Animation With CSS </div>
+		<div id="rdj3">CSS By Professor Rahul Jain</div>
+	</div>
+</body>
+
+</html>

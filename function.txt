@@ -1,0 +1,8 @@
+Function in Python
+Function Creation//define /name 
+Function Defination
+Function Calling 
+num1 = 10
+num2 = 11
+add (10,11)
+def add(num1, num2) 
